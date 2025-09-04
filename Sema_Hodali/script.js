@@ -29,12 +29,12 @@ function Student(name, age, grade) {
         }
 
    
-  };
-this.introduce = function() {
+  };}
+Student.prototype.introduce = function() {
     console.log(`Hi, my name is ${this.name}, I’m ${this.age} years old, and I’m in grade ${this.getGrade()}.`);
 
 };
-}
+
 
 var student1= new Student('Sema',22, 'A');
 student1.introduce(); 
